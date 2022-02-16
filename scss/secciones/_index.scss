@@ -1,0 +1,10 @@
+// Efecto Imagenes header de media query
+@media (max-width: 768px) {
+  .imagen1 {
+    display: none;
+  }
+}
+
+.container{
+  margin: auto;
+}

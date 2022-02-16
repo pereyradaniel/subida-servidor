@@ -1,0 +1,22 @@
+.servicios {
+  padding: 80px 30px 50px 30px;
+
+  .parrafoServicios {
+    margin: 30px 0 30px 0;
+  }
+}
+
+// comienzo de media query
+
+@media (max-width: 950px) {
+  .servicios {
+    padding: 30px 10px 30px 10px;
+
+    .parrafoServicios {
+      margin: 0;
+    }
+  }
+  .container {
+    padding: 0;
+  }
+}
