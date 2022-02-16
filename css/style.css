@@ -135,7 +135,8 @@
     grid-auto-flow: row;
     padding: 0;
     height: 1200px;
-    grid-template-areas: "gridNosotrosParrafo gridNosotrosParrafo" "gridNosotrosVideo gridNosotrosVideo"; }
+    grid-template-areas: "gridNosotrosParrafo gridNosotrosParrafo"
+ "gridNosotrosVideo gridNosotrosVideo"; }
     .gridNosotros .gridNosotrosVideo {
       grid-area: gridNosotrosVideo;
       width: 100%;
@@ -144,6 +145,10 @@
       grid-area: gridNosotrosParrafo;
       margin-bottom: 10px; } }
 
+@media (max-width: 950px) {
+  .gridNosotros {
+    padding: 80px 10px 30px 10px; } }
+
 .servicios {
   padding: 80px 30px 50px 30px; }
   .servicios .parrafoServicios {
@@ -151,7 +156,7 @@
 
 @media (max-width: 950px) {
   .servicios {
-    padding: 30px 10px 30px 10px; }
+    padding: 80px 10px 30px 10px; }
     .servicios .parrafoServicios {
       margin: 0; }
   .container {
@@ -234,7 +239,7 @@ strong {
 
 @media (max-width: 950px) {
   .formulario {
-    padding: 60px 20px 30px 20px; } }
+    padding: 80px 20px 30px 20px; } }
 
 .snip1585 * {
   -webkit-box-sizing: border-box;
