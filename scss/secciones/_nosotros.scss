@@ -50,7 +50,7 @@
     grid-template-rows: 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-    padding:0;
+    padding: 0;
     height: 1200px;
     grid-template-areas:
       "gridNosotrosParrafo gridNosotrosParrafo"
@@ -64,5 +64,11 @@
       grid-area: gridNosotrosParrafo;
       margin-bottom: 10px;
     }
+  }
+}
+
+@media (max-width: 950px) {
+  .gridNosotros {
+    padding: 80px 10px 30px 10px;
   }
 }
