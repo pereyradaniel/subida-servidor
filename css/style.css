@@ -135,8 +135,7 @@
     grid-auto-flow: row;
     padding: 0;
     height: 1200px;
-    grid-template-areas: "gridNosotrosParrafo gridNosotrosParrafo"
- "gridNosotrosVideo gridNosotrosVideo"; }
+    grid-template-areas: "gridNosotrosParrafo gridNosotrosParrafo" "gridNosotrosVideo gridNosotrosVideo"; }
     .gridNosotros .gridNosotrosVideo {
       grid-area: gridNosotrosVideo;
       width: 100%;
@@ -158,7 +157,7 @@
   .servicios {
     padding: 80px 10px 30px 10px; }
     .servicios .parrafoServicios {
-      margin: 0; }
+      margin: 10px; }
   .container {
     padding: 0; } }
 
