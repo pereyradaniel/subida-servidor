@@ -77,14 +77,6 @@
 .container {
   margin: auto; }
 
-@media (max-width: 950px) {
-  .gridNosotros {
-    padding: 50px 10px 30px 10px; } }
-
-@media (max-width: 950px) {
-  .row {
-    padding: 0 10px 0 10px; } }
-
 .mapa {
   padding: 80px 20px 80px 20px; }
   .mapa .mapaContacto {
@@ -167,7 +159,7 @@
     .servicios .parrafoServicios {
       margin: 10px; }
   .container {
-    padding: 20px 20px 20px 20px; } }
+    padding: 20px 0 20px 0; } }
 
 .tituloH1 {
   color: #ffff;
